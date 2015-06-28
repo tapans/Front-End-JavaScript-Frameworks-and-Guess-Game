@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Guess Game: Plain HTML5 and JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<h1> Guess Game </h1>
+	<form id="guess-form">
+		<label>Pick a number between 1 and 10</label>
+		<p>
+			<input id="guess" required autofocus type="number" min="1" max="10"></input>
+			<input id="guess-submit" type="submit" value="Guess!"/>
+		</p>		
+	</form>
+	<div id="guessHistory"></div>
+	<script src='js/script.js' type="text/javascript"></script>
+</body>
+</html>

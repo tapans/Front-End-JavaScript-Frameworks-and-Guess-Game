@@ -1,0 +1,29 @@
+input:required:invalid{
+	color:red;
+}
+body{
+	width:384px;
+	margin:auto;
+	border: solid black;
+	text-align: center;			
+	word-wrap: break-word;
+	padding-bottom:2%;
+}
+h1{
+	color: black;
+}
+.high{
+	color:blue;
+}
+.low{
+	color:red;
+}
+.correct{
+	color:green;
+}
+li{
+	list-style-type: none;
+}
+ul{
+	padding:0;
+}
