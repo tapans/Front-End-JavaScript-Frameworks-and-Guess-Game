@@ -1,2 +1,14 @@
 # Guess-Game-implemented-in-various-web-technologies
-Various Implementations of a simple guess game (See guessGame.png) using different web technologies and frameworks.
+Various Implementations of a simple Guess Game using different web technologies and frameworks.
+
+The guess game flow is as follows:
+<li>1. Application randomly selects a number</li>
+<li>2. User makes a guess</li>
+<li>3. Application provides feedback as to whether the guess was low, high or correct, and maintains guess History</li>
+<li>4. When user guesses the correct number, the application notifies the user of the number of tries it took them, the application disables the guess button and displays a restart button to the user </li>
+<li>5. When the user clicks restart, the application selects a new secret number and resets all the counts as well as the guess history</li>
+ 
+##Architecture and Implementation Notes:
+<li>1. <a href='AngularJS'>AngularJS</a>: Factory singleton 'logFactory' is used to maintain history of guesses across the default and restartGame views, Controller 'LogController' handles the main game logic and also redirects user to gameOver view when users guess the secret number correctly.</li>
+<li>2. <a href='Plain Html5+JavaScript'>Plain HTML5+JS</a>: game logic in raw javascript</li>
+<li>3. <a href='React'>React</a>: Essentially all the logic is in the GuessGameApp component which has the sub-components: GuessHistory, GuessHistoryEntry, and RestartButton. See React/app.js</li>
