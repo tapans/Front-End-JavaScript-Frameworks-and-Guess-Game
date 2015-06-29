@@ -1,0 +1,8 @@
+<div id="guessHistory" >
+	<ul> 
+		<li data-ng-repeat="guess in log">
+			<span class="{{ guess.type }}">{{ guess.text }}</span>
+		</li> 
+	</ul>
+</div>
+<button ng-click="reset();">Restart</button>
