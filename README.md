@@ -1,5 +1,5 @@
-# Guess-Game-implemented-in-various-web-technologies
-Various Implementations of a simple Guess Game using different web technologies and frameworks.
+# Front-End-JavaScript-Frameworks-and-Guess-Game
+Various Implementations of a simple Guess Game using different client side JavaScript frameworks / libraries.
 
 The guess game flow is as follows:
 <ol>
@@ -12,7 +12,7 @@ The guess game flow is as follows:
  
 ##Architecture and Implementation Notes:
 <ol>
-<li><a href='AngularJS'>AngularJS</a>: Factory singleton 'logFactory' is used to maintain history of guesses across the default and restartGame views, Controller 'LogController' handles the main game logic and also redirects user to gameOver view when users guess the secret number correctly.</li>
-<li><a href='Plain Html5+JavaScript'>Plain HTML5+JS</a>: game logic in raw javascript</li>
+<li><a href='Angular'>Angular</a>: Factory singleton 'logFactory' is used to maintain history of guesses across the default and restartGame views, Controller 'LogController' handles the main game logic and also redirects user to gameOver view when users guess the secret number correctly.</li>
+<li><a href='Vanilla'>Vanilla</a>: game logic in raw javascript</li>
 <li><a href='React'>React</a>: Essentially all the logic is in the GuessGameApp component which has the sub-components: GuessHistory, GuessHistoryEntry, and RestartButton. See <a href='React/app.js'>React/app.js</a></li>
 </ol>

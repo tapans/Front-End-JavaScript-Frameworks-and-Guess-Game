@@ -10,6 +10,6 @@ Angular 1.3 concepts used:
 - routes
 - modules
 
-Recommended video tutorial: ( you might want to watch it in 2X speed :P ) 
+Recommended video tutorial: 
 https://www.youtube.com/watch?v=i9MHigUZKEM
 
