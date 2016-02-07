@@ -1,4 +1,4 @@
-See demo at http://csprojects.me/guessGame/angular/
+See demo at https://csprojects.me/guessGame/angular/
 
 Angular 1.3 concepts used: 
 - directives

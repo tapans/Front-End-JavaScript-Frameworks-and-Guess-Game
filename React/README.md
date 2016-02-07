@@ -1,4 +1,4 @@
-See demo at http://csprojects.me/guessGame/react/
+See demo at https://csprojects.me/guessGame/react/
 
 React concepts applied:
 - Components and nested components

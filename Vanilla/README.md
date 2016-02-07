@@ -1,2 +1,2 @@
 See demo at:
-http://csprojects.me/guessGame/vanilla/
+https://csprojects.me/guessGame/vanilla/
