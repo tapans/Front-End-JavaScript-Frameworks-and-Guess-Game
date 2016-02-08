@@ -15,4 +15,5 @@ The guess game flow is as follows:
 <li><a href='Angular'>Angular</a>: Factory singleton 'logFactory' is used to maintain history of guesses across the default and restartGame views, Controller 'LogController' handles the main game logic and also redirects user to gameOver view when users guess the secret number correctly.</li>
 <li><a href='Vanilla'>Vanilla</a>: game logic in raw javascript</li>
 <li><a href='React'>React</a>: Essentially all the logic is in the GuessGameApp component which has the sub-components: GuessHistory, GuessHistoryEntry, and RestartButton. See <a href='React/app.js'>React/app.js</a></li>
+<li><a href='Backbone'>Backbone</a> Uses jQuery & Underscore libs. Each Guess is a model, GuessHistory is a collection of guesses. There is a view for each Guess item, as well as a separate view for game won state, and GuessHistoryView is the main App View/Controller</li>
 </ol>
