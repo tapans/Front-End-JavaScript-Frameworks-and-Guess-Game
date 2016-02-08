@@ -1,2 +1,2 @@
 See demo at:
-https://csprojects.me/guessGame/backbone/
+https://csprojects.me/guessGame/Backbone/
